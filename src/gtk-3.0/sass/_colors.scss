@@ -72,6 +72,7 @@ $accent_color: if($variant =='light', #666666, #fafafa);
 @if $color =='tang' { $primary_color: #FF6C42; $alt_primary_color: #ff6767; $accent_color: #ff6767; }
 @if $color =='azul' { $primary_color: #2196F3; $alt_primary_color: #18B8FF; $accent_color: #18B8FF; }
 @if $color =='jade' { $primary_color: #2eb37b; $alt_primary_color: #1bc674; $accent_color: #1bc674; }
+@if $color =='rose' { $primary_color: #C75581; $alt_primary_color: #EA6C9D; $accent_color: #FB89B5; }
 @if $color =='white' { $primary_color: #686868; $alt_primary_color: #666666; $accent_color: if($variant =='light', #666666, #fafafa); }
 
 $menu_bg_color: $base_color;

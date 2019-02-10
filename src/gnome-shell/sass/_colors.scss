@@ -54,7 +54,10 @@ $accent_color: #444444;
 @if $color =='tang' { $primary_color: #F0544C; $alt_primary_color: #FF615A; $accent_color: #FF626C; }
 @if $color =='azul' { $primary_color: #4586D8; $alt_primary_color: #03a9f4; $accent_color: #0CAAF0; }
 @if $color =='jade' { $primary_color: #2EB398; $alt_primary_color: #1eba9b; $accent_color: #0fd1ab; }
+@if $color =='pink' { $primary_color: #d84584; $alt_primary_color: #f4026b; $accent_color: #ef0c6e; }
+@if $color =='rose' { $primary_color: #b22e5e; $alt_primary_color: #ba1d57; $accent_color: #d10f56; }
 @if $color =='black' { $primary_color: #555555; $alt_primary_color: #666666; $accent_color: #EEEEEE; }
+
 
 $link_color:         $primary_color;
 $visited_link_color: $purple_A200;

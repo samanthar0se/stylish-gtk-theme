@@ -17,7 +17,7 @@ if [ ! -z "${SIZE_VARIANTS:-}" ]; then
   IFS=', ' read -r -a _SIZE_VARIANTS <<< "${SIZE_VARIANTS:-}"
 fi
 
-_THEME_VARIANTS=('' '-Tang' '-Azul' '-Jade')
+_THEME_VARIANTS=('' '-Rose')
 if [ ! -z "${THEME_VARIANTS:-}" ]; then
   IFS=', ' read -r -a _THEME_VARIANTS <<< "${THEME_VARIANTS:-}"
 fi

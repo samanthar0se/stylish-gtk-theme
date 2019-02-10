@@ -16,7 +16,7 @@ SRC_DIR=${REO_DIR}/src
 THEME_NAME=Stylish
 VARIANT_VARIANTS=('' '-Light' '-Dark')
 SIZE_VARIANTS=('' '-Laptop')
-COLOR_VARIANTS=('' '-Tang' '-Azul' '-Jade')
+COLOR_VARIANTS=('-Rose')
 
 usage() {
   printf "%s\n" "Usage: $0 [OPTIONS...]"
